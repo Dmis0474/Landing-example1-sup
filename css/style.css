@@ -114,7 +114,7 @@ img {
   min-height: calc(100vh - 161px);
   display: flex;
   justify-content: flex-end;
-  /* align-items: center; */
+  align-items: center;
   position: relative;
   margin-top: 100px;
 }
@@ -650,6 +650,16 @@ img {
   .footer__gallery-item {
     width: 100%;
     align-self: stretch;
+  }
+}
+
+@media (max-width: 1600px){
+  .header__content{
+   
+    align-items: flex-start;
+  }
+  .header__content-box{
+    margin-top: -100px;
   }
 }
 
